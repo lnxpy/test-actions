@@ -1,0 +1,1 @@
+PUSH_SNIPPET_URL = 'https://codehub.pythonanywhere.com/api/v1/snippet'
