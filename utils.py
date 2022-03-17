@@ -1,5 +1,7 @@
 from constants import PUSH_SNIPPET_URL
 
+from requests import post
+
 
 class Snippet:
     '''
@@ -15,7 +17,6 @@ class Snippet:
         self.description = description
 
     def push(self):
-        from requests import post
         
         data = {
             'title': self.title,
