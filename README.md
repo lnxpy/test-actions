@@ -1,4 +1,4 @@
-### Testing GitHub Actions with CodeHub APIs
+### Testing GitHub Actions with CodeHub Push APIs
 
 > :page_facing_up: [Check the blog post for more information about the implementation and concepts](https://imsadra.me/lights-camera-github-actions).
 
