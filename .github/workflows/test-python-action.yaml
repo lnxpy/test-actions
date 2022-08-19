@@ -3,7 +3,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   
-  jobs:
+jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
@@ -11,6 +11,6 @@ on:
       with:
         persist-credentials: false
     - name: repo-sync
-      uses: shipyard/github-action-python-template
-      with:
-#         num: 5
+      uses: shipyard/github-action-python-template@master
+#       with:
+  #         num: 5
